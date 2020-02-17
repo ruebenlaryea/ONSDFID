@@ -177,15 +177,11 @@ shinyServer(function(input,output,session){
         box.col=c("green", "orange", "yellow")[findInterval(fit2$frame$yval, v = c(1,2,3))])
     
     
-    #plot(fit2, uniform = TRUE, main = "Classification model for Food Risk Security")
-    #text(fit2, use.n = TRUE, all=TRUE, cex=1.1)
+    
     
   })
   
-  #Image
-  #output$example <- renderUI({
-  #  tags$a(imageOutput("dfid-ukaid"),href="https://www.google.com")
-  #})
+  
   
   output$downloadData <- downloadHandler(
     filename = function(){paste(input$dataset,".csv",sep=" ")},
