@@ -25,12 +25,13 @@ shinyUI(pageWithSidebar(
              title="To DFID Website", 
              width="100",
              height="140",
-             style="float:left;padding-top:70px"
+             style="float:left;margin-top:-30px"
+             
              
     ),
     
-tags$a(href="https://en.wikipedia.org/wiki/Districts_of_Ivory_Coast", tags$h1("REPUBLIC OF COTE D'IVOIRE DISTRICTS HIV PROGRAM",style="white-space:nowrap;color:orange;overflow:hidden;text-overflow:ellipsis;padding-left:140px;width:90%")),
-  
+tags$a(href="https://en.wikipedia.org/wiki/Districts_of_Ivory_Coast", tags$h1("REPUBLIC OF COTE D'IVOIRE DISTRICTS HIV PROGRAM",style="white-space:nowrap;color:orange;overflow:hidden;text-overflow:ellipsis;padding-left:300px;position:fixed;width:90%")),
+
      
     tags$a(
       href="http://www.gouv.ci/Main.php", 
