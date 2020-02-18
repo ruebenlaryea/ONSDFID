@@ -25,7 +25,7 @@ shinyUI(pageWithSidebar(
              title="To DFID Website", 
              width="100",
              height="140",
-             style="float:left;margin-top:-30px"
+             style="float:left;margin-top:-15px"
              
              
     ),
