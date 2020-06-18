@@ -8,6 +8,7 @@ library(R.methodsS3)
 library(R.utils)
 library(session)
 
+
 HIVdata <- read.xls("HIVDataOriginal.xlsx")
 hivclasses <- read.xls("HIVClasses.xlsx")
 fit2 <- rpart(Classes~ Maize + Potato + Cassava + WealthGinIndex, method = 'class', data = hivclasses,control =rpart.control(minsplit =1,minbucket=1, cp=0))
